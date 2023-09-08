@@ -39,7 +39,6 @@ void loop() {
   Serial.print(temperature);
   Serial.println("C°");
   Serial.println("");
-  Serial.println("yai lo bhai");
   Blynk.virtualWrite(V0,temperature);
   Blynk.virtualWrite(V1,humidity);
   delay(1000);
